@@ -1,0 +1,69 @@
+.create{
+    margin: 40px;
+}
+
+.title{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.input{
+    height: 20px;
+    border-radius: 20px;
+    padding: 5px 50px 5px 10px;
+    font-size: 0.8rem;
+    border: 1px solid #BCE0ED;
+    background-color: #BCE0ED;
+}
+
+.input:focus{
+    outline: none;
+    border: 1px solid #211C42;
+    box-shadow: 0 0 5px #211C42;
+}
+
+.label{
+    height: 20px;
+    border-radius: 20px;
+    padding: 5px 10px 10px 10px;
+    font-size: 1.2rem;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.countryContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.name{
+    font-weight: 500;
+    padding: 0.8em 1.5em;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.radio{
+    height: 20px;
+    border-radius: 20px;
+    padding: 5px 10px 10px 10px;
+    font-size: 1.2rem;
+    gap: 5px;
+    cursor: pointer;
+}

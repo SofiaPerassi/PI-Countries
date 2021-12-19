@@ -1,0 +1,37 @@
+.paginado{
+    text-decoration: none;
+    display: inline-block;
+    padding: 40px;
+    justify-content: center;
+    text-align: center;
+}
+
+.numbers{
+    text-decoration: none;
+    list-style: none;
+    background-color: #D6ECF6;
+    border-radius: 50px;
+    justify-content: center;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.numbers:hover{
+    border: 1px solid #211C42;
+    box-shadow: 0 0 5px #211C42;
+}
+
+.number{
+    display: block;
+    width: 30px;
+    height: 30px;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.pagesNumber{
+    flex: auto;
+}

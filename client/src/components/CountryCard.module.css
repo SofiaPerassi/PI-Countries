@@ -1,0 +1,29 @@
+.card{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    border-color: #0A201B;
+    padding: 10px 50px 10px 50px;
+    align-items: center;
+    border: 1px solid #211C42;
+    border-radius: 20px;
+}
+
+.countryImage{
+    border-radius: 10px;
+    align-items: center;
+    flex: center;
+}
+
+.card:hover{
+    opacity: 0.8;
+    background-color: #D6ECF6;
+    outline: none;
+    border: 1px solid #211C42;
+    box-shadow: 0 0 10px #211C42;
+    border-radius: 20px;
+}
+
+

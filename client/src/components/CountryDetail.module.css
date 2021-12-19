@@ -1,0 +1,47 @@
+.detailsContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.col{
+    max-width: 600px;
+    margin: 40px;
+    height: auto;
+    height: 80%;
+}
+
+.countryImage{
+    border-radius: 15px;
+}
+
+.countryDetails{
+    font-size: 1.0rem;
+    text-align: justify;
+}
+
+.firstItem{
+    margin-top: 0;
+}
+
+.actContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 60px);
+    gap: 40px;
+}
+
+.activities{
+    border: 1px solid #211C42;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+@media (max-width: 560px){
+    .countryImage{
+        width: 90%;
+        height: auto;
+    }
+}

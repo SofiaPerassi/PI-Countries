@@ -1,0 +1,35 @@
+.landing{
+    background:url(../images/BagsID-Plane-Animation-V2.gif);
+    background-position: center;
+    background-size: cover;
+    height: 40rem;
+    padding: 5rem;
+    background-repeat: no-repeat;
+}
+
+/* .center{
+
+    justify-content: center;
+    align-items: center;
+} */
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Degrade
+height: 200px;
+   background-color: #cccccc;
+   background-image: linear-gradient(red, yellow); 
+   */
+
+   /* Colores
+   #211C42
+   077095
+   44ADD0
+   BCE0ED
+   D6ECF6
+    */
